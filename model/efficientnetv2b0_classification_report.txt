@@ -1,0 +1,17 @@
+              precision    recall  f1-score   support
+
+  background     1.0000    0.9615    0.9804        26
+     ten_new     0.8800    0.8462    0.8627        52
+     ten_old     0.8776    0.9348    0.9053        46
+  twenty_new     0.8542    0.9535    0.9011        43
+  twenty_old     0.9730    0.9474    0.9600        38
+   fifty_new     0.8293    0.8500    0.8395        40
+   fifty_old     0.9167    0.9429    0.9296        35
+ hundred_new     0.9697    0.9412    0.9552        34
+ hundred_old     1.0000    0.8750    0.9333        16
+ two_hundred     0.8974    0.8537    0.8750        41
+five_hundred     0.9024    0.8810    0.8916        42
+
+    accuracy                         0.9056       413
+   macro avg     0.9182    0.9079    0.9122       413
+weighted avg     0.9074    0.9056    0.9057       413

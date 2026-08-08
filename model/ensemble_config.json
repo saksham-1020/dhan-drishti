@@ -1,0 +1,42 @@
+{
+  "class_names": [
+    "background",
+    "ten_new",
+    "ten_old",
+    "twenty_new",
+    "twenty_old",
+    "fifty_new",
+    "fifty_old",
+    "hundred_new",
+    "hundred_old",
+    "two_hundred",
+    "five_hundred"
+  ],
+  "img_size": [
+    224,
+    224
+  ],
+  "backbones": [
+    {
+      "name": "mobilenetv2",
+      "display_name": "MobileNetV2",
+      "file": "mobilenetv2.keras",
+      "val_accuracy": 0.8571428656578064,
+      "weight": 0.21536141869199327
+    },
+    {
+      "name": "efficientnetv2b0",
+      "display_name": "EfficientNetV2-B0",
+      "file": "efficientnetv2b0.keras",
+      "val_accuracy": 0.9055690169334412,
+      "weight": 0.3172616552120952
+    },
+    {
+      "name": "convnexttiny",
+      "display_name": "ConvNeXt-Tiny",
+      "file": "convnexttiny.keras",
+      "val_accuracy": 0.9539951682090759,
+      "weight": 0.4673769260959115
+    }
+  ]
+}
